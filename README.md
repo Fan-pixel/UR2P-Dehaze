@@ -6,8 +6,17 @@ Image dehazing techniques aim to enhance contrast and restore details, which are
 
 <img src="images/Overall_frame.png" width="80%">
 
+
+
 Preparation
 ===========================
+### Clone the repo
+
+```sh
+git clone https://github.com/Fan-pixel/UR2P-Dehaze.git
+cd UR2P-Dehaze
+```
+
 ## Install
 Python 3.7 + Pytorch, please refer 'environment.yml' for detiled requirments.
 You can create a new conda environment:
