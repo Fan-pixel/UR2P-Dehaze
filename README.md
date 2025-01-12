@@ -23,6 +23,23 @@ You can create a new conda environment:
 ```
 conda env create -f environment.yml
 ```
+Datasets
+===========================
+We used [SOTS-indoor](https://sites.google.com/view/reside-dehaze-datasets/reside-v0), [SOTS-outdoor](https://sites.google.com/view/reside-dehaze-datasets/reside-v0)  and [I-HAZE](https://data.vision.ee.ethz.ch/cvl/ntire18//i-haze/) for testing.  
+
+For training, we used [ITS](https://sites.google.com/view/reside-dehaze-datasets/reside-standard) dataset, you can follow the operations above to generate the training file lists.
+
+## Training and Test
+Training
+You can modify the training settings for each experiment in the 'configs.yml'. Then run the following script to train the model：
+```
+CUDA_VISIBLE_DEVICES=xxxx python train.py --model （Model class） --checkpoints （Training sample address）
+```
+Testing
+Run the following script to test the trained model：
+```
+CUDA_VISIBLE_DEVICES=XXX python test.py --model （Model class） --checkpoints （Test sample address）
+```
 
 ## Qualitative Results
 ### Comparison Experiment
@@ -40,3 +57,10 @@ conda env create -f environment.yml
 
 ### Dehazing results on I-HAZE
 <img src="images/I-HAZE.png" width="80%">
+
+
+
+
+
+## Contact
+If you have any questions, please contact the email wenxuan_fang@njust.edu.cn
