@@ -17,10 +17,7 @@ conda env create -f environment.yml
 
 ## Qualitative Results
 ### Comparison Experiment
-<img src="images/PSNR_SSIM.png" width="80%">
-
-### Dehazing results on SOTS-Indoor
-<img src="images/indoor.png" width="80%">
+<img src="images/PSNRSSIM.png" width="80%">
 
 ### Dehazing results on SOTS-Outdoor
 <img src="images/outdoor.png" width="80%">
