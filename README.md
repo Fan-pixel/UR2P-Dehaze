@@ -15,7 +15,7 @@ You can create a new conda environment:
 conda env create -f environment.yml
 ```
 
-## Main Results
+## Qualitative Results
 ### Comparison Experiment
 <img src="PSNR_SSIM.png" width="80%">
 
