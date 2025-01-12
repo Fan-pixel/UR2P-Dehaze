@@ -63,4 +63,4 @@ CUDA_VISIBLE_DEVICES=XXX python test.py --model （Model class） --checkpoints 
 
 
 ## Contact
-If you have any questions, please contact the email wenxuan_fang@njust.edu.cn
+If you have any questions, please contact the email Fansb@stu.cqut.edu.cn
