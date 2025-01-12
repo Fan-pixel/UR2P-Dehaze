@@ -26,3 +26,5 @@ conda env create -f environment.yml
 ### Dehazing results on HSTS
 <img src="images/HSTS.png" width="80%">
 
+### Dehazing results on I-HAZE
+<img src="images/I-HAZE.png" width="80%">
