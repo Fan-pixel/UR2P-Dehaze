@@ -22,11 +22,9 @@ conda env create -f environment.yml
 ### Dehazing results on SOTS-Indoor
 <img src="images/indoor.png" width="80%">
 
-### Dehazing results on SOTS-Indoor
-<img src="images/indoor.png" width="80%">
-
 ### Dehazing results on SOTS-Outdoor
 <img src="images/outdoor.png" width="80%">
+<img src="images/outdoor1.png" width="80%">
 
 ### Dehazing results on HSTS
 <img src="images/HSTS.png" width="80%">
