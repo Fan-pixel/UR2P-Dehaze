@@ -1,0 +1,46 @@
+MODE: 1             # 1: train, 2: test
+MODEL: 1           # no need to alter 
+SEED: 10            # random seed
+GPU: [1]            # list of gpu ids
+TEST_MODE: pair_test #测试去雾性能    # pair_test : test dehazing performance.  clean: test depth estimation & haze generation
+
+
+TRAIN_CLEAN_FLIST: /home/ubuntu/DCM-dehaze-main/datasets/its_train_gt.flist
+TRAIN_HAZY_FLIST: /home/ubuntu/DCM-dehaze-main/datasets/its_train_hazy.flist
+TEST_HAZY_FLIST: 
+TEST_CLEAN_PATH: 
+VAL_HAZY_FLIST: 
+VAL_CLEAN_PATH: 
+DATASET: SOTS-indoor
+
+
+LR: 0.0001                                # learning rate
+WEIGHT_DECAY: 0                   # weight decay
+D2G_LR: 0.1                   # discriminator/generator learning rate ratio
+BETA1: 0.9                    # adam optimizer beta1
+BETA2: 0.999                    # adam optimizer beta2
+BATCH_SIZE: 8                 # input batch size for training1
+CROP_SIZE: 256               # input image size for training 0 for original size
+MAX_ITERS: 2000000      #1500000                # maximum number of iterations to train the model
+BASE_CHANNEL_NUM: 64
+BLOCK_NUM: 4
+
+MIN_BETA: 0.6
+MAX_BETA: 1.8
+MIN_D: 0.2
+MAX_D: 5
+
+PSNR: RGB
+L1_LOSS_WEIGHT: 1           
+GAN_LOSS_WEIGHT: 0.2
+CYCLE_LOSS_WEIGHT: 1
+PARA_LOSS_WEIGHT: 1
+
+GAN_LOSS: lsgan               # nsgan | lsgan | hinge
+GAN_POOL_SIZE: 0              # fake images pool size
+
+SAVE_INTERVAL: 20000           # how many iterations to wait before saving model (0: never)
+SAMPLE_INTERVAL: 50        # how many iterations to wait before sampling (0: never)
+SAMPLE_SIZE: 4               # number of images to sample
+EVAL_INTERVAL: 20000              # how many iterations to wait before model evaluation (0: never)
+LOG_INTERVAL: 100              # how many iterations to wait before logging training status (0: never)
