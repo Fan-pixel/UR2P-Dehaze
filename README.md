@@ -41,7 +41,7 @@ Run the following script to test the trained model：
 CUDA_VISIBLE_DEVICES=XXX python test.py --model （Model class） --checkpoints （Test sample address）
 ```
 
-Such as SOTS-indoor，SOTS-outdoor, you can download the pretrained models on [Training weight](https://pan.baidu.com/s/1egiZQp5VgpVPQmUT9Y9wIg)(c1hh).
+Such as SOTS-indoor，SOTS-outdoor, you can download the pretrained models on [Training weight](https://pan.baidu.com/s/10OPzyosdEwYQoXcseZEliA)(uur1).
 
 ## Qualitative Results
 ### Comparison Experiment
