@@ -5,8 +5,7 @@ GPU: [1]            # list of gpu ids
 DEBUG: 0            # turns on debugging mode
 VERBOSE: 0          # turns on verbose mode in the output console
 TEST_MODE: pair_test     # hazy, clean, pair_test
-#TRAIN_HAZY_FLIST: ./datasets/syn_reside_train_hazy.flist
-#TRAIN_CLEAN_FLIST: ./datasets/syn_reside_train_clean.flist
+
 TRAIN_CLEAN_FLIST: /home/ubuntu/UR2P-Dehaze/datasets/its_train_gt.flist
 TRAIN_HAZY_FLIST: /home/ubuntu/UR2P-Dehaze/datasets/its_train_hazy.flist
 TRAIN_TRANSMISSION_FLIST: 
