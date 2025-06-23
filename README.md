@@ -8,7 +8,7 @@ Image dehazing techniques aim to enhance contrast and restore details, which are
 
 ### News
 [**2025.6.9**] The paper has been accepted by the journal Pattern Recognition. The final version includes additional experiments and content.  <br>
-[**2025.1.17**] We have published pre-trained weights for different datasets. <br>
+[**2025.1.17**] We have published **pre-trained weights** for different datasets. <br>
 [**2025.1.13**] Publish the initial version, including code and dataset. <br>
 
 Preparation
