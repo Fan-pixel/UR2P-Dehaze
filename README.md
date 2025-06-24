@@ -51,20 +51,20 @@ Such as SOTS-indoor，SOTS-outdoor, you can download the pretrained models on [T
 🚀 Qualitative Results
 ===========================
 ### Comparison Experiment
-<img src="images/PSNRSSIM.png" width="80%">
+<img src="images/PSNRSSIM.png" width="100%">
 
 ### Dehazing results on SOTS-Indoor
-<img src="images/indoor.png" width="80%">
+<img src="images/indoor.png" width="100%">
 
 ### Dehazing results on SOTS-Outdoor
-<img src="images/outdoor.png" width="80%">
-<img src="images/outdoor1.png" width="80%">
+<img src="images/outdoor.png" width="100%">
+<img src="images/outdoor1.png" width="100%">
 
 ### Dehazing results on HSTS
-<img src="images/HSTS.png" width="80%">
+<img src="images/HSTS.png" width="100%">
 
 ### Dehazing results on I-HAZE
-<img src="images/I-HAZE.png" width="80%">
+<img src="images/I-HAZE.png" width="100%">
 
 
 🎓 Citation
