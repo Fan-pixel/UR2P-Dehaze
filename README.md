@@ -11,7 +11,7 @@ Image dehazing techniques aim to enhance contrast and restore details, which are
 [**2025.1.17**] We have published **pre-trained weights** for different datasets. <br>
 [**2025.1.13**] Publish the initial version, including code and dataset. <br>
 
-Preparation
+🛠️ Preparation
 ===========================
 ### Clone the repo
 
@@ -20,7 +20,7 @@ git clone https://github.com/Fan-pixel/UR2P-Dehaze.git
 cd UR2P-Dehaze
 ```
 
-## 🛠️ Install
+## Install
 Python 3.7 + Pytorch, please refer 'environment.yml' for detiled requirments.
 You can create a new conda environment:
 ```
