@@ -69,7 +69,7 @@ Such as SOTS-indoor，SOTS-outdoor, you can download the pretrained models on [T
 If you find our work useful, please consider cite our paper:
 
 ```bibtex
-@misc@article{xue2025ur2p,
+@article{xue2025ur2p,
   title={UR2P-Dehaze: Learning a Simple Image Dehaze Enhancer via Unpaired Rich Physical Prior},
   author={Xue, Minglong and Fan, Shuaibin and Palaiahnakote, Shivakumara and Zhou, Mingliang},
   journal={arXiv preprint arXiv:2501.06818},
