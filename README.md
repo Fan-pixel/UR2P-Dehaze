@@ -20,7 +20,8 @@ git clone https://github.com/Fan-pixel/UR2P-Dehaze.git
 cd UR2P-Dehaze
 ```
 
-## Install
+🎫 Install
+===========================
 Python 3.7 + Pytorch, please refer 'environment.yml' for detiled requirments.
 You can create a new conda environment:
 ```
@@ -32,7 +33,8 @@ We used [SOTS-indoor](https://sites.google.com/view/reside-dehaze-datasets/resid
 
 For training, we used [ITS](https://sites.google.com/view/reside-dehaze-datasets/reside-standard) dataset, you can follow the operations above to generate the training file lists.
 
-## 💻 Training and Test
+💻 Training and Test
+===========================
 Training
 You can modify the training settings for each experiment in the 'configs.yml'. Then run the following script to train the model：
 ```
@@ -46,7 +48,8 @@ CUDA_VISIBLE_DEVICES=XXX python test.py --model （Model class） --checkpoints 
 
 Such as SOTS-indoor，SOTS-outdoor, you can download the pretrained models on [Training weight](https://pan.baidu.com/s/10OPzyosdEwYQoXcseZEliA)(uur1).
 
-## 🚀 Qualitative Results
+🚀 Qualitative Results
+===========================
 ### Comparison Experiment
 <img src="images/PSNRSSIM.png" width="80%">
 
@@ -64,8 +67,8 @@ Such as SOTS-indoor，SOTS-outdoor, you can download the pretrained models on [T
 <img src="images/I-HAZE.png" width="80%">
 
 
-## 🎓 Citation
-
+🎓 Citation
+===========================
 If you find our work useful, please consider cite our paper:
 
 ```bibtex
@@ -77,5 +80,6 @@ If you find our work useful, please consider cite our paper:
 }
 ```
 
-## ✏️ Contact
+✏️ Contact
+===========================
 If you have any questions, please contact the email Fansb@stu.cqut.edu.cn
